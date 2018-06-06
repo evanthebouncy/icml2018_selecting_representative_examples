@@ -90,7 +90,7 @@ class Oracle:
 
   # save the model
   def save(self):
-    model_loc = "./models/tmp" + self.name+".ckpt"
+    model_loc = "./models/tmp/" + self.name+".ckpt"
     sess = self.session
     save_path = self.saver.save(sess, model_loc)
     print("Model saved in file: %s" % save_path)

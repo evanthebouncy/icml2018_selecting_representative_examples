@@ -20,7 +20,7 @@ If you want to train your own model, run:
 
     python model.py
 
-By default it will be saved under /models/ periodically
+By default it will be saved under /models/tmp periodically
 
 To use this model move it to /models/m1
 
