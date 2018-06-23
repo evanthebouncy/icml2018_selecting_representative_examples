@@ -1,4 +1,4 @@
-# selecting representative examples for program syntehsis
+# selecting representative examples for program synthesis
 
 ![alt text](https://raw.githubusercontent.com/evanthebouncy/icml2018_selecting_representative_examples/master/pictures/synthesis_pipeline.png)
 
