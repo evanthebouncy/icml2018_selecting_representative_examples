@@ -1,4 +1,8 @@
-# icml2018_selecting_representative_examples
+# icml2018 : selecting representative examples for program syntehsis
+
+## synthesis pipeline
+
+![alt text]("https://raw.githubusercontent.com/evanthebouncy/icml2018_selecting_representative_examples/master/pictures/synthesis_pipeline.png")
 
 code for icml paper: https://arxiv.org/abs/1711.03243v3
 
