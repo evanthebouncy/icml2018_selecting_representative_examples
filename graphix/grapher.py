@@ -17,7 +17,10 @@ def gen_graphs(TEST_LOC):
     solve_times_all = []
     total_times = []
     
-    names = [d[0]['method'] for d in data]
+    def change_name(a_name):
+      return 'handcraft' if a_name == 'h1+cegis' else a_name
+
+    names = [change_name ( d[0]['method'] ) for d in data]
 
     for method in data:
         builds = [d['building_time'] for d in method]
