@@ -3,6 +3,16 @@ import numpy as np
 import pickle
 import matplotlib.pyplot as plt
 
+# font size setup
+plt.rc('font', size=8)          # controls default text sizes
+plt.rc('axes', titlesize=8)     # fontsize of the axes title
+plt.rc('axes', labelsize=10)    # fontsize of the x and y labels
+plt.rc('xtick', labelsize=8)    # fontsize of the tick labels
+plt.rc('ytick', labelsize=8)    # fontsize of the tick labels
+plt.rc('legend', fontsize=8)    # legend fontsize
+plt.rc('figure', titlesize=12)  # fontsize of the figure title
+
+
 fname = 'exp1'
 
 def extract_data(fname):
